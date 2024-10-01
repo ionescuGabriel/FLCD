@@ -4,7 +4,7 @@ function greater(a, b)
 {
 	return(a>=b);
 };
-start()
+START()
 {
 	num a = 0, b =  0, c = 0;
 	console.string("Calculate the mximum of three numbers.\nEnter the first number: ");
@@ -18,12 +18,12 @@ start()
 		if(greater(a, c))
 		{
 			console.num(a);
-			end.code(0);
+			END.code(0);
 		}
 		else
 		{
 			console.num(c);
-			end.code(0);
+			END.code(0);
 		}
 	}
 	else
@@ -31,7 +31,7 @@ start()
 		if(greater(b, c))
 		{
 			console.num(b);
-			end.code(0);
+			END.code(0);
 		}
 	}
 };
@@ -62,7 +62,7 @@ function prime(a)
 	}
 	return(true);
 };
-start()
+START()
 {
 	num a = 0;
 	console.string("Check if a given number is prime.\nEnter number: ");
@@ -70,15 +70,15 @@ start()
 	if(prime(a))
 	{
 		return(true);
-		end.code(0);
+		END.code(0);
 	}
 	return(false);
-	end.code(0);
+	END.code(0);
 };
 
 p3 - sum of n numbers
 
-start()
+START()
 {	
 	num sum = 0, n = 0, i = 0, a = 0;
 	console.string("Calculate the sum of n numbers.\nEnter n: ");
@@ -89,7 +89,7 @@ start()
 		sum = sum+a;
 	}
 	console.num(sum);
-	end.code(0);
+	END.code(0);
 };
 
 p1err - errors
@@ -98,7 +98,7 @@ function greater(a, b)
 {
 	return(a>=b);
 };
-start()
+START()
 {
 	num a = 0, b =  0, c = 0, ? = 10;	I'?' is illegalI
 	console.string("Calculate the mximum of three numbers.\nEnter the first number: ");
@@ -112,12 +112,12 @@ start()
 		if(greater(a, c))
 		{
 			console.num(a);
-			end.code(0);
+			END.code(0);
 		}
 		else
 		{
 			console.num(c);
-			end.code(0);
+			END.code(0);
 		}
 	}
 	esle	Ielse is misspelledI
@@ -125,7 +125,7 @@ start()
 		if(greater(b, c))
 		{
 			console.num(b);
-			end.code(0);
+			END.code(0);
 		}
 	}
 };
